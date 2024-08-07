@@ -1,4 +1,5 @@
 <?php
+
   function rgwebdev_oxy_acf_fix($dynamic_data) {
   	foreach ($dynamic_data as $index1 => $ddata) {
   		if (isset($ddata) && !empty($ddata) && $ddata['data'] === 'acf_content') {
@@ -16,4 +17,5 @@
   }
   
   add_filter('oxygen_custom_dynamic_data', 'rgwebdev_oxy_acf_fix', 999, 1);
+
 ?>
