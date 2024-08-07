@@ -18,6 +18,10 @@ Lo script aggiunge lo slug del campo accanto al nome nella lista dei campi ACF, 
 1. Carica lo Script: Carica il file PHP nella directory del tuo tema o plugin personalizzato.
 2. Includi lo Script: Includi e carica lo script nel tuo progetto WordPress.
 
+### Esempio di Output
+
+![Esempio di Output](https://lab.riccardoguerrera.dev/oxygen-visual-editor.png)
+
 ### Contributi
 
 Se vuoi migliorare lo script o hai trovato un bug:
